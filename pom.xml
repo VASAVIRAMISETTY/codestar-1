@@ -30,13 +30,13 @@
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>libs-snapshots</name>
-        <url>http://10.89.72.53:8081/artifactory/libs-snapshot</url>
+        <name>Vasavi_localkey</name>
+        <url>http://10.89.72.53:8082/artifactory/Vasavi_localkey/</url>
     </snapshotRepository>
     <repository>
         <id>central</id>
-        <name>libs-release</name>
-        <url>http://10.89.72.53:8081/artifactory/libs-release</url>
+        <name>Vasavi_localkey</name>
+        <url>http://10.89.72.53:8082/artifactory/Vasavi_localkey/</url>
     </repository>	
 </distributionManagement>
 

@@ -8,7 +8,7 @@ pipeline{
            // sh "echo Validate is successful"
             }
         }
-      /*  stage('compile'){
+       stage('compile'){
             steps{
             sh "mvn compile"
             sh "echo Validate is successful"
@@ -38,6 +38,7 @@ pipeline{
             sh "echo install is successful"
             }
         }
+        /*
         stage('deploy'){
             steps{
            sh "mvn deploy"

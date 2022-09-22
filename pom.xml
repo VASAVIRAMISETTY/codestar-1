@@ -13,7 +13,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
+<!--
    <distributionManagement>
     <repository>
         <id>central</id>
@@ -26,7 +26,20 @@
         <url>https://vasavi.jfrog.io/artifactory/maven_repo</url>
     </snapshotRepository>
 </distributionManagement> 
-    
+    -->
+    <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>libs-snapshots</name>
+        <url>http://10.89.72.53:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>libs-release</name>
+        <url>http://10.89.72.53:8081/artifactory/libs-release</url>
+    </repository>	
+</distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>

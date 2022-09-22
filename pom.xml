@@ -13,20 +13,20 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-<!--
-   <distributionManagement>
+
+<distributionManagement>
     <repository>
         <id>central</id>
         <name>a0gnocuvj81il-artifactory-primary-0-releases</name>
-        <url>https://vasavi.jfrog.io/artifactory/maven_repo</url>
+        <url>https://vasavi.jfrog.io/artifactory/vasavi-localrepo</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>a0gnocuvj81il-artifactory-primary-0-snapshots</name>
-        <url>https://vasavi.jfrog.io/artifactory/maven_repo</url>
+        <url>https://vasavi.jfrog.io/artifactory/vasavi-localrepo</url>
     </snapshotRepository>
-</distributionManagement> 
-    -->
+</distributionManagement>
+    <!--
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
@@ -39,7 +39,7 @@
         <url>http://10.89.72.53:8082/artifactory/Vasavi_localkey/</url>
     </repository>	
 </distributionManagement>
-
+-->
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
